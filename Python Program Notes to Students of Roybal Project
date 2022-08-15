@@ -1,0 +1,4 @@
+Variables: a place in memory to store information.
+Name: string variable - text
+Age: integer variable - no decimal
+GPA: float variable - decimals
