@@ -9,4 +9,8 @@ print ("Hello "+ name)
 age = input (name + " How old are you? ")
 
 # we create the variable gpa
-gpa = input("Enter your GPA ")
+gpa = float (input("Enter your GPA "))
+
+lf gpa < 1.5:
+  print ("You have a low gpa:")
+  
