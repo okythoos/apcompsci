@@ -2,3 +2,26 @@ Variables: a place in memory to store information.
 Name: string variable - text
 Age: integer variable - no decimal
 GPA: float variable - decimals
+
+
+Grade: float variable
+st: true/false boolean
+
+>< = == Relational operators
+
+"and", "or" Logical operators
+Difference between "=" and "=="
+
+When we assign a value to a variable we use "="
+Age = 14
+
+When we compare, we use "=="
+if age =="14"
+
+Incremental development:
+Find we created 2 variable to enter name and GPA
+
+The we added a condition based on the GPA
+Then we added a loop and we introduced a boolean variable "st"
+Then we create a condition based on the grade level to inform the name of the counselor
+ 
