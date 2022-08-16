@@ -1,12 +1,15 @@
+import csv
+from csv import writer
+
 print ("Roybal Learning Center")
 print ("Students Data")
 
 st = True 
-while = st:
+while st:
 
   # we create the variable name
   name = input ("Your Name: -q- to exit ")
-  lf name == "q":
+  if name == "q":
     st = False
   else:
     
@@ -14,6 +17,21 @@ while = st:
 
     # the variable age is an integer vairable
     age = input (name + " How old are you? ")
+
+    grade = input (name + "What grade are you in" )
+
+
+    if grade = "9" or grade == "12":
+      couns = "Lexius"
+    elif grade == "10":
+      couns = "Gonzalez"
+    elif grade == "11":
+      couns = "White"
+    Print ("Your counselor is " +couns)
+    
+
+
+    couns = input ("Your conselor: ")
 
     # we create the variable gpa
     gpa = float (input("Enter your GPA "))
@@ -26,4 +44,3 @@ while = st:
 
     else: 
       print ("You have a good GPA")
-  
